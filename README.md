@@ -12,26 +12,28 @@ Para desarrollar páginas web dinámicas con Java necesitamos:
   
 Para manejo de bases de datos: 
 
-3. - [ ] Manejar JDBC
-4. - [ ] Manejar JPA
+3. - [ ] Manejar JPA
 
 Para hacer uso de servicios web (bajo el protocolo SOAP):
 
-5. - [ ] Manejar JAX-WS
+4. - [ ] Manejar JAX-WS
 
 ## Glosario
 
-**Servlet:**
-
-Clase de Java que procesa las solicitudes HTTP al servidor para generar respuestas en forma de HTTP, XML, JSON, etc. y así tener contenido dinámico.
 
 **JSP (Java Server Page):**
 
-Tecnología de Java en donde en un mismo archivo se puede utilizar HTML y Java (HTML para las vistas y Java para la lógica de negocio). Esto para generar contenido dinámica de manera más práctica y sencilla que un servlet.
+Tecnología de Java en donde en un mismo archivo se puede utilizar HTML y Java (HTML para las vistas y Java para la lógica de negocio). Esto para generar contenido dinámica de manera ráctica y sencilla.
+
+**Servlet:**
+
+Clase de Java que funciona como intermediario entre JSP y el servidor, manejando las solicitudes y respuestas HTTP.
+
+También se pueden generar páginas dinámicas con servlets, pero se recomienda usar JSPs para tener un workspace más ordenado.
 
 **JAX-WS (Java API XML Web Services):**
 
-Conjunto de APIs basado en SOAP para crear, acceder y utilizar servicios web.
+Conjunto de APIs basados en SOAP para crear, acceder y utilizar servicios web.
 
 **SOAP (Simple Object Access Protocol):**
 
@@ -40,6 +42,8 @@ Protocolo que define la comunicación entre distintos programas en la red para p
 **javax:**
 
 Paquete de Java con varias funcionalidades y tecnologías, desde GUI (Interfaz Gráfica de Usuario) hasta acceso a bases de datos, seguridad, comunicaciones, XML y más.
+
+En versiones más recientes, se cambió el nombre de javax a jakarta.
 
 **JPA (Java Persistence API):**
 
@@ -51,10 +55,6 @@ Paquete de Java con varias funcionalidades y tecnologías, desde GUI (Interfaz G
 
     [Lista de Reproducción de YouTube](https://www.youtube.com/watch?v=dm0stmK5egM&list=PLQxX2eiEaqbzhvlMJZkyFoZpyo33T6rm7&pp=iAQB)
 
-    [Repositorio](https://github.com/TheRobotAsimov/LearningJPS)
-
 - Aprender a manejar JAX-WS
  
     [Lista de Reproducción de YouTube]() (Próximamente)
-
-    [Repositorio]() (Próximamente)
